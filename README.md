@@ -1,3 +1,1 @@
-# git_test
-
-Hello Odin!
+A collection of basic html examples.
