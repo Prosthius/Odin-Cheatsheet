@@ -1,0 +1,66 @@
+/*Universal selector*/
+* {
+    color: red;
+}
+
+/*Type selector*/
+p {
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: blue;
+}
+
+/*Class selector*/
+.title {
+    background-color: rgb(117, 117, 255);
+    color: rgb(0, 255, 21);
+    text-align: center;
+}
+.ancestor {
+    color: cornflowerblue;
+}
+.child {
+    color: inherit;
+}
+.white {
+    color: white;
+}
+
+/*ID selector*/
+#id {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+
+/*Grouping selector*/
+.italics,
+.bold {
+    font-size: 30px;
+}
+
+/*Chaining selector*/
+.italics.group {
+    color: orange;
+}
+
+/*Descendant combinator*/
+ul li {
+    font-size: 15px;
+    color: brown;
+}
+ol li {
+    background-color: cadetblue;
+}
+
+ol .this {
+    background-color: burlywood;
+}
+.specificity li {
+    color: black;
+    background-color: coral;
+}
